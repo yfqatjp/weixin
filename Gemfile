@@ -26,7 +26,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'nokogiri', '1.6.8'
 
 gem 'remotipart', github: 'mshibuya/remotipart'
+
 gem 'rails_admin', '>= 1.0.0.rc'
+
+gem 'unicorn'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
