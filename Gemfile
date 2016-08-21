@@ -27,6 +27,7 @@ gem 'nokogiri', '1.6.8'
 
 gem 'remotipart', github: 'mshibuya/remotipart'
 
+
 gem 'rails_admin', '>= 1.0.0.rc'
 
 gem 'unicorn'
