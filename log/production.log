@@ -1,0 +1,22 @@
+D, [2016-08-27T12:37:29.988837 #13332] DEBUG -- :   [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+D, [2016-08-27T12:37:29.993670 #13332] DEBUG -- :   [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2016-08-27T12:37:30.008883 #13332] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2016-08-27T12:37:30.014348 #13332]  INFO -- : Migrating to CreateUsers (20160820064325)
+D, [2016-08-27T12:37:30.017775 #13332] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2016-08-27T12:37:30.019494 #13332] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2016-08-27T12:37:30.032790 #13332] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160820064325"]]
+D, [2016-08-27T12:37:30.033899 #13332] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+I, [2016-08-27T12:37:30.033991 #13332]  INFO -- : Migrating to CreateMicroposts (20160826045915)
+D, [2016-08-27T12:37:30.034940 #13332] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2016-08-27T12:37:30.036952 #13332] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "microposts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2016-08-27T12:37:30.038380 #13332] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160826045915"]]
+D, [2016-08-27T12:37:30.039365 #13332] DEBUG -- :   [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+I, [2016-08-27T12:37:30.039449 #13332]  INFO -- : Migrating to AddPasswordDigestToUsers (20160826162145)
+D, [2016-08-27T12:37:30.040997 #13332] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2016-08-27T12:37:30.041978 #13332] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+D, [2016-08-27T12:37:30.043294 #13332] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160826162145"]]
+D, [2016-08-27T12:37:30.044575 #13332] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2016-08-27T12:37:30.047871 #13332] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2016-08-27T12:37:30.052210 #13332] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2016-08-27T12:37:30.053624 #13332] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "production"], ["created_at", 2016-08-27 03:37:30 UTC], ["updated_at", 2016-08-27 03:37:30 UTC]]
+D, [2016-08-27T12:37:30.054977 #13332] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
