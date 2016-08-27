@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :microposts
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :users
   root 'static_pages#home'
