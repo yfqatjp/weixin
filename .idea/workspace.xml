@@ -2,120 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f11d75-693a-4a4e-981b-6dce5eb352a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-6/-69qbDsG1qE1kZQm7LjiqxowdrFFMKj9zpX8AC6fc5s.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-6/-69qbDsG1qE1kZQm7LjiqxowdrFFMKj9zpX8AC6fc5s.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-O/-OANCuXcIpuzAWwcNRWdjSFvvyPPZh5Q30Zm8lgtA54.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-O/-OANCuXcIpuzAWwcNRWdjSFvvyPPZh5Q30Zm8lgtA54.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0b/0biaNfqvxWzlzlHUc0in_vlDSI7P6v3JnQumM0mIm6U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0b/0biaNfqvxWzlzlHUc0in_vlDSI7P6v3JnQumM0mIm6U.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0u/0uvtRFZF80uFlQYdbVqIJ2m6kT9w5GUbdBkK4FvRAUY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0u/0uvtRFZF80uFlQYdbVqIJ2m6kT9w5GUbdBkK4FvRAUY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/17/17ubBLAfkO54mc-A02R2ogRUedXvfWmqjsuLK0OEd7c.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/17/17ubBLAfkO54mc-A02R2ogRUedXvfWmqjsuLK0OEd7c.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1Z/1Zk01btnXmFTkZDv-Y7WpbvjKkDWMYeJd7oWZS_vnfQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1Z/1Zk01btnXmFTkZDv-Y7WpbvjKkDWMYeJd7oWZS_vnfQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1f/1fplF5ySmF4e9Sao2T4spaNNsk4RwO_hbfOqIFQHFs0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1f/1fplF5ySmF4e9Sao2T4spaNNsk4RwO_hbfOqIFQHFs0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2B/2BPpBgaXntq8lFhrS36eMsBU9ehgdnPMpzlfx1mlB7s.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2B/2BPpBgaXntq8lFhrS36eMsBU9ehgdnPMpzlfx1mlB7s.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2N/2Np-mbnPunMKDb_E8lfdeogWzFRJogeYhsOy77c3y5k.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2N/2Np-mbnPunMKDb_E8lfdeogWzFRJogeYhsOy77c3y5k.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3T/3T9dpy_L_tIbFJvwumhBxBWP3vE0Rcm6RJc8PXjRJMA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3T/3T9dpy_L_tIbFJvwumhBxBWP3vE0Rcm6RJc8PXjRJMA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3T/3ty4hQ9KUBx6l1ShgOsUGIh0kNgsRU8iF3GTmC7ODW4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3T/3ty4hQ9KUBx6l1ShgOsUGIh0kNgsRU8iF3GTmC7ODW4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5D/5D-JUnwnjC40Y1_FnSTGcGEo6znZdTGCdPauRwvorAw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5D/5D-JUnwnjC40Y1_FnSTGcGEo6znZdTGCdPauRwvorAw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6O/6OQxuveRe2rJlErmcQeM_l448aofoo8A5LCFOdMJD9g.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6O/6OQxuveRe2rJlErmcQeM_l448aofoo8A5LCFOdMJD9g.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/75/75TpDHkQ9fA60GNL4ymwkzjAiCT5r7UJVJL8usNirFE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/75/75TpDHkQ9fA60GNL4ymwkzjAiCT5r7UJVJL8usNirFE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7M/7MxPuyzHmoGDf3sNy-9WyMSh3b__FmwOI2WL2mHypIk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7M/7MxPuyzHmoGDf3sNy-9WyMSh3b__FmwOI2WL2mHypIk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7X/7X9XxLazU6Jpb7ladMFdRiSI1EdYn7qsSbilPrACIPA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7X/7X9XxLazU6Jpb7ladMFdRiSI1EdYn7qsSbilPrACIPA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8j/8jbkYK4_Z2hRmgL8ZPIThNsZoKYkb7ajGKHTVQ4-UdE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8j/8jbkYK4_Z2hRmgL8ZPIThNsZoKYkb7ajGKHTVQ4-UdE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9I/9IqMM4TLW4Kca9vSlCekv98nG6n35kWTPnxyWf7d8lc.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9I/9IqMM4TLW4Kca9vSlCekv98nG6n35kWTPnxyWf7d8lc.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9J/9j8IPtdNaBHijwh4pqcNVPrW8bQodKL4S9g6uysMmRA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9J/9j8IPtdNaBHijwh4pqcNVPrW8bQodKL4S9g6uysMmRA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/A-/a-npNEbAUVBRbOBiHiH-A5YpLukFnAeLwZjCr4_mkdE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/A-/a-npNEbAUVBRbOBiHiH-A5YpLukFnAeLwZjCr4_mkdE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ah/AHvv4YKidlSIHXeWrXcAuRSDqN_C_TU8RRHR4LpZV7k.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ah/AHvv4YKidlSIHXeWrXcAuRSDqN_C_TU8RRHR4LpZV7k.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/D7/D758u_hHn2UR3-WICXRasOPHVJg2pWQrziItKaSIG1o.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/D7/D758u_hHn2UR3-WICXRasOPHVJg2pWQrziItKaSIG1o.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DJ/DJdN47J8HLA_xLS5GyoXYJFQHNN01JojkjcCeYJdkSQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DJ/DJdN47J8HLA_xLS5GyoXYJFQHNN01JojkjcCeYJdkSQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Db/DbCbxOUyGFtYQxT46YhAVx77lKZi6R-85G5Irv0M-e0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Db/DbCbxOUyGFtYQxT46YhAVx77lKZi6R-85G5Irv0M-e0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dd/Ddk21l88dEGXL1IbEakkSnayE__SCmIyYhOxqFjpNA4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dd/Ddk21l88dEGXL1IbEakkSnayE__SCmIyYhOxqFjpNA4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dw/DWrmTEsL55g2_umHOUXU_RnD5GEOqoj_YmjJuj2HXNo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dw/DWrmTEsL55g2_umHOUXU_RnD5GEOqoj_YmjJuj2HXNo.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dw/Dwj5OaGoUNO2JL4tXb2q7EC-c5hGEPfJECnXupeO_lI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dw/Dwj5OaGoUNO2JL4tXb2q7EC-c5hGEPfJECnXupeO_lI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fz/FZZ7qXmK--fK2UMMWk69v9uJS3ln50H6Ov2GsncQh5w.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fz/FZZ7qXmK--fK2UMMWk69v9uJS3ln50H6Ov2GsncQh5w.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IA/IAU4Fut5mILI-Y3j0SF1_GRyrmDn6dtLbMZ5NhYmj-E.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IA/IAU4Fut5mILI-Y3j0SF1_GRyrmDn6dtLbMZ5NhYmj-E.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IA/IajqelQ3HGTWko6sKy_avScWGvxR7O0kQpP44dbKrpc.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IA/IajqelQ3HGTWko6sKy_avScWGvxR7O0kQpP44dbKrpc.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IP/IPnu2MGs_iip5DQFICB1EZnXLCllWy9Q4gplztRdHDk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IP/IPnu2MGs_iip5DQFICB1EZnXLCllWy9Q4gplztRdHDk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Iw/IwhrNWr04caONKD1rzarY3Ih0whJNsLUPgIvWwz55mk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Iw/IwhrNWr04caONKD1rzarY3Ih0whJNsLUPgIvWwz55mk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Js/JsShksIORoHbxR42xTwzl9EJbPbCid7FJbHsAOxbJeI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Js/JsShksIORoHbxR42xTwzl9EJbPbCid7FJbHsAOxbJeI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mt/Mt5owCIJMiwn4z39sgqnm4h_XpSZfXqK6I4-jjxufA4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mt/Mt5owCIJMiwn4z39sgqnm4h_XpSZfXqK6I4-jjxufA4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mt/mtyDWHbgesCBkR98cxCYNKGQ3OvHF2aDd3KReh6OKjI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mt/mtyDWHbgesCBkR98cxCYNKGQ3OvHF2aDd3KReh6OKjI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nb/NbmLGlim9QgZOzcch4A3hqS9fCCvHbi0UUHQGUajbbo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nb/NbmLGlim9QgZOzcch4A3hqS9fCCvHbi0UUHQGUajbbo.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OB/OBquykhGYEoYuzwszpwsql33RlTLBpU3vnMNTXCEgpo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OB/OBquykhGYEoYuzwszpwsql33RlTLBpU3vnMNTXCEgpo.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Oa/Oa2ru5G5rH8LXjlpEOBgzKNLyxBQYi0BrRc4hux303Q.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Oa/Oa2ru5G5rH8LXjlpEOBgzKNLyxBQYi0BrRc4hux303Q.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Op/Op9nAuqEtJ_vAxHGpqSd8Ki2WrYYO32mmQR8WMSCYQ4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Op/Op9nAuqEtJ_vAxHGpqSd8Ki2WrYYO32mmQR8WMSCYQ4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P4/P4GUAp-IHozOc00KOlDfLKm4iYG1P08FAOVH9v_LBSg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P4/P4GUAp-IHozOc00KOlDfLKm4iYG1P08FAOVH9v_LBSg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QD/QDyztI1H4LsdbIEi26SPn8b9tYB5oncyCfD67iGgPPI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QD/QDyztI1H4LsdbIEi26SPn8b9tYB5oncyCfD67iGgPPI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R6/r6Q8_klIAkA1Osjhrel4rerJP-_RkzAwC9hgGY5zKsQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R6/r6Q8_klIAkA1Osjhrel4rerJP-_RkzAwC9hgGY5zKsQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ST/STxYScNm8nUbfKbz_BLPPWAZjTdUlusNjgqrT4Zm_c8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ST/STxYScNm8nUbfKbz_BLPPWAZjTdUlusNjgqrT4Zm_c8.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/T7/T73x3fcIFO1c0guhSzV4dxZzB9oHYXdR4JF2a3Onz-k.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/T7/T73x3fcIFO1c0guhSzV4dxZzB9oHYXdR4JF2a3Onz-k.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Tu/TuKwqUZteuZxszamBjOi_Xmkai3el5HEbk1dbYiYP3w.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Tu/TuKwqUZteuZxszamBjOi_Xmkai3el5HEbk1dbYiYP3w.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UX/ux6V_5CAOyFhsi86l4ilsCcswyG1K0MFJC7orqMDMIM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UX/ux6V_5CAOyFhsi86l4ilsCcswyG1K0MFJC7orqMDMIM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/W3/W3O3ug-bi3Omki_5IviBDMLXZj5-x1MZDkigMXkcnyo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/W3/W3O3ug-bi3Omki_5IviBDMLXZj5-x1MZDkigMXkcnyo.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WY/WyWwof2Tni4ZCfsfGEGgp1s73R83e4YpIc6YHs45dGw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WY/WyWwof2Tni4ZCfsfGEGgp1s73R83e4YpIc6YHs45dGw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XS/XSeJ_21S6B_D-0_t2M3Wb3jNF6kGX2f8eOFiTsDZL9M.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XS/XSeJ_21S6B_D-0_t2M3Wb3jNF6kGX2f8eOFiTsDZL9M.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yp/YpNeti1xzvTS5AUgOuXXvd7vz-9qlazwsQ4c3oKc15Q.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yp/YpNeti1xzvTS5AUgOuXXvd7vz-9qlazwsQ4c3oKc15Q.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ys/Ys2NuVm5whzqU2G4LwXXJBjDmOx74oBXyqERI2yUTmY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ys/Ys2NuVm5whzqU2G4LwXXJBjDmOx74oBXyqERI2yUTmY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yt/YtA6xb0sDNrJWIMmnBzuoJvhjBnhBaeqRY0zG-2sMFM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yt/YtA6xb0sDNrJWIMmnBzuoJvhjBnhBaeqRY0zG-2sMFM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ZI/ZI8kE2Zu-wa2rqoNhExoE8y-QMMyncjehat-cCcW6kU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ZI/ZI8kE2Zu-wa2rqoNhExoE8y-QMMyncjehat-cCcW6kU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_7/_7PBx7r1D6GWF-2Nvd0qp7udSrtCr4a-iWO2BaRLtmg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_7/_7PBx7r1D6GWF-2Nvd0qp7udSrtCr4a-iWO2BaRLtmg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aM/aMzEsCM2qrPxFjDbmFE2T1Dokle8SOunuwj9_3gf9dU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aM/aMzEsCM2qrPxFjDbmFE2T1Dokle8SOunuwj9_3gf9dU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ad/adq-tClN7rTRrWbKOunj7mzag-POR1ZX6VXeeYaEdMo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ad/adq-tClN7rTRrWbKOunj7mzag-POR1ZX6VXeeYaEdMo.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aj/ajrH43smy9E8M12JjWNohFwva4sxvMKPDfPnSy3SjJk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aj/ajrH43smy9E8M12JjWNohFwva4sxvMKPDfPnSy3SjJk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bp/bp8zMjYXwCbZ9lnXHyJcz3V3_jYtb_d17pY3mvhO8g0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bp/bp8zMjYXwCbZ9lnXHyJcz3V3_jYtb_d17pY3mvhO8g0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dh/dhYynudO0WrQ_pEhNM15eHMaR8v-3dxylMP70KQkfpY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dh/dhYynudO0WrQ_pEhNM15eHMaR8v-3dxylMP70KQkfpY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/es/esjNdYMNxgXoUJfA4S5o60EqG5Vo5PCV_2pLGRyoDDg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/es/esjNdYMNxgXoUJfA4S5o60EqG5Vo5PCV_2pLGRyoDDg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gI/gIms3_mMmt2Hs9TldWv_Wwrgw70atI8IjGM5pFZ8hPQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gI/gIms3_mMmt2Hs9TldWv_Wwrgw70atI8IjGM5pFZ8hPQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gx/gxSkYf-5ztXeESdDY7X03_Cn4NLpyoeYZo8L0DMQpF4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gx/gxSkYf-5ztXeESdDY7X03_Cn4NLpyoeYZo8L0DMQpF4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ho/hO1WXp734kcmscosh7j8WynkCj6LroxO3FMHeiCDu1A.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ho/hO1WXp734kcmscosh7j8WynkCj6LroxO3FMHeiCDu1A.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/i-/i-wOaZ7AISSlRYNpwXu6eFsHmkxOp0aJSyQci2vMxiA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/i-/i-wOaZ7AISSlRYNpwXu6eFsHmkxOp0aJSyQci2vMxiA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iC/iC7lmAhy7dCYPzPM8I4U_FSpOzZp-ElVmxZbiqZR5HI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iC/iC7lmAhy7dCYPzPM8I4U_FSpOzZp-ElVmxZbiqZR5HI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iD/iD0AlNrZqHJGeIMO3E1too8P3-s58cshmWGlC7MJ6AM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iD/iD0AlNrZqHJGeIMO3E1too8P3-s58cshmWGlC7MJ6AM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iN/INRDDuVupfZJkEuV0EB3LPNWGw83ioLJ6f7chyyeAVU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iN/INRDDuVupfZJkEuV0EB3LPNWGw83ioLJ6f7chyyeAVU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iv/ivqLBAr2HP_Bivwe9RgJaLUo-QoTHE_GzS2-7sayhAw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iv/ivqLBAr2HP_Bivwe9RgJaLUo-QoTHE_GzS2-7sayhAw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ja/jaKVWHzrTX6l9vq010L1CfckFgOcPKBz8VU0fCTiJYM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ja/jaKVWHzrTX6l9vq010L1CfckFgOcPKBz8VU0fCTiJYM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/l4/l4KGsqEgU5w-UneqobNQdzCjQ54ntVPVw3AAZ3ZKWUQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/l4/l4KGsqEgU5w-UneqobNQdzCjQ54ntVPVw3AAZ3ZKWUQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lS/lS-dAQeYhP24xR9IjBimmaXTFDU_1FBL61v9JJ9yL70.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lS/lS-dAQeYhP24xR9IjBimmaXTFDU_1FBL61v9JJ9yL70.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lU/lUbcP6ssvnYMN_pHxsAU7It51w_ENNTv8SOJz3hPRrI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lU/lUbcP6ssvnYMN_pHxsAU7It51w_ENNTv8SOJz3hPRrI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lw/lwMnOZC9XRCabms3ENiZV_7hGnaNQtP_nEmgHNZl0Mk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lw/lwMnOZC9XRCabms3ENiZV_7hGnaNQtP_nEmgHNZl0Mk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nI/nI9PTyb_ZS-kH7AV6nim83g7zv-vsFEkXav8XxaflZY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nI/nI9PTyb_ZS-kH7AV6nim83g7zv-vsFEkXav8XxaflZY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/n_/n_xYqQYhwEMQknb3jFQnjlxxBE9TzMNHCdJ-bEyZFIw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/n_/n_xYqQYhwEMQknb3jFQnjlxxBE9TzMNHCdJ-bEyZFIw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nk/nkdokys289fFMt5SMonnWbj4vsekDUN8jd_Xk501WOQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nk/nkdokys289fFMt5SMonnWbj4vsekDUN8jd_Xk501WOQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nx/NxtFP8NeLdmvSV9fO2h4oUEFEhBwOFceaZWBUUmMuwE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nx/NxtFP8NeLdmvSV9fO2h4oUEFEhBwOFceaZWBUUmMuwE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nx/nxTv3sKVUQZADJyM3dPaVmUA78MIsMLD_K279yN_GsI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nx/nxTv3sKVUQZADJyM3dPaVmUA78MIsMLD_K279yN_GsI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pN/pNd_rh5hgKpjPMDLZUG6u5FP89i7MYjDG4lJ2Y2HKSU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pN/pNd_rh5hgKpjPMDLZUG6u5FP89i7MYjDG4lJ2Y2HKSU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pR/PRcJeK9gW08podHTINmZF9ocZMzX-M2Bv1BUbXopgKY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pR/PRcJeK9gW08podHTINmZF9ocZMzX-M2Bv1BUbXopgKY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qP/qPmv5snMrDw830S6hSICDcnIy7kVEWoFKXhGKT38lG4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qP/qPmv5snMrDw830S6hSICDcnIy7kVEWoFKXhGKT38lG4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rL/rLd6HgLcDQ6YTa4gm61tq2LkRPiLwHeHhYnkyQCECgY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rL/rLd6HgLcDQ6YTa4gm61tq2LkRPiLwHeHhYnkyQCECgY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sm/smZ9mAtUvBL_jxZtYgjoM8TjZ_GTAnZ5BWLDwHdNOyk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sm/smZ9mAtUvBL_jxZtYgjoM8TjZ_GTAnZ5BWLDwHdNOyk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sr/sr4rFlrbHBn8QlitAFobrBCmTnno7glG_RNXteFwup4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sr/sr4rFlrbHBn8QlitAFobrBCmTnno7glG_RNXteFwup4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tV/tVRX637O6G_fmHnePCxCejG0J3qY2hTKdU3R_CYjeVE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tV/tVRX637O6G_fmHnePCxCejG0J3qY2hTKdU3R_CYjeVE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uZ/UzK6cFHrwsnVaJHY1WwTFy_LUsolE0jTpsEi9aemWMM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uZ/UzK6cFHrwsnVaJHY1WwTFy_LUsolE0jTpsEi9aemWMM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/v-/V-FWaT-aH5GN5cv0KoB_CKhp93LXQyzCJStMDmyv0mg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/v-/V-FWaT-aH5GN5cv0KoB_CKhp93LXQyzCJStMDmyv0mg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vF/vFh7WGdgclmoGSxoHW2UMzO4SePL3yIWvxtneNsT__U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vF/vFh7WGdgclmoGSxoHW2UMzO4SePL3yIWvxtneNsT__U.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vT/vTQb2RN_-fjFuNJV94Lye9vvO6wk222S46eZKeeY0-w.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vT/vTQb2RN_-fjFuNJV94Lye9vvO6wk222S46eZKeeY0-w.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wH/wHfY1WcMcjAAFnuQjMDb_inenwkfITdnMeIdBlV8Rd4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wH/wHfY1WcMcjAAFnuQjMDb_inenwkfITdnMeIdBlV8Rd4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wf/WfxtuSf9FPgCsDABjyz0TZv0KDoG97PN_wparIJH1yI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wf/WfxtuSf9FPgCsDABjyz0TZv0KDoG97PN_wparIJH1yI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wv/wv-PTcAJABj5Xoq9NyEgcw_Z3hiYFnIYVNCRvOg9-_0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wv/wv-PTcAJABj5Xoq9NyEgcw_Z3hiYFnIYVNCRvOg9-_0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/x7/x7PYh8DJvPykcEqpVab2vcY9-GFz-3cqtoMlRAu94Uc.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/x7/x7PYh8DJvPykcEqpVab2vcY9-GFz-3cqtoMlRAu94Uc.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xQ/XQILQ-La7ckued3X-tOgf-fgA4LPVfaohVV35fNhNjk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xQ/XQILQ-La7ckued3X-tOgf-fgA4LPVfaohVV35fNhNjk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yv/yvfwSyR-ZoOq3tlg52SKhxp3NVrzX4qL6FyMnRvuiL4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yv/yvfwSyR-ZoOq3tlg52SKhxp3NVrzX4qL6FyMnRvuiL4.cache" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/test.mp4" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/rails_admin.rb" afterPath="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,8 +59,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+            <state relative-caret-position="375">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -230,11 +120,11 @@
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -877,12 +767,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472361799305</updated>
-      <workItem from="1472361801833" duration="8837000" />
+      <workItem from="1472361801833" duration="8926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8837000" />
+    <option name="totallyTimeSpent" value="8926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1060,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1094,10 +976,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+        <state relative-caret-position="375">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
