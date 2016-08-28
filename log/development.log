@@ -18063,3 +18063,175 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 170ms (Views: 149.3ms | ActiveRecord: 1.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-08-28 17:32:46 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/4
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 42ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2016-08-28 17:32:47 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 867ms (Views: 861.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-08-28 17:32:57 +0900
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :_authorize! rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-28 17:32:57 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/4
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2016-08-28 17:32:57 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.6ms)
+Started GET "/admin" for 127.0.0.1 at 2016-08-28 17:32:57 +0900
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :_authorize! rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-28 17:32:57 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/4
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.5ms)
+
+
+  Rendered layouts/_header.html.erb (1.4ms)
+Started GET "/users/4" for 127.0.0.1 at 2016-08-28 17:32:57 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_footer.html.erb (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Completed 200 OK in 190ms (Views: 187.2ms | ActiveRecord: 0.2ms)
+
+
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 151ms (Views: 145.1ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2016-08-28 17:33:02 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"T9J3Oj59uobOOFQ3MNyGSYvjBENhWFMEoTuvQgw3TLKykagYgZLs+uRwWf0BBmL+XnsCRoFVjDqUAHcL28B0BA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-28 17:33:02 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-08-28 17:33:02 +0900
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (37.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 99ms (Views: 96.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-08-28 17:33:10 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HLV6MvGNyLeX+uakzn1AakATQmQtD4B780fUihbNbh7h9qUQTmKey72y627/p6TdlYtEYc0CX0XGfAzDwTpWqA==", "session"=>{"email"=>"lifan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lifan@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 82ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-08-28 17:33:10 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 71ms (Views: 67.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-08-28 17:33:13 +0900
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (11.6ms)
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.7ms)
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/_navigation.html.haml (16.8ms)
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (3.4ms)
+  Rendering /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/pjax.html.haml (3.5ms)
+Completed 200 OK in 589ms (Views: 428.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-08-28 17:33:14 +0900
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.4ms)
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/_secondary_navigation.html.haml (12.6ms)
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/_navigation.html.haml (24.0ms)
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (3.9ms)
+  Rendering /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /Users/lifan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rails_admin-1.0.0.rc/app/views/layouts/rails_admin/pjax.html.haml (7.3ms)
+Completed 200 OK in 319ms (Views: 312.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-28 17:33:19 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/1
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-08-28 17:33:19 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 77ms (Views: 73.5ms | ActiveRecord: 0.5ms)
+
+
