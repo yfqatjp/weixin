@@ -8,6 +8,10 @@ class UsersController < ApplicationController
 
   end
 
+  def video
+
+  end
+
   # GET /users/new
   def new
     @user = User.new

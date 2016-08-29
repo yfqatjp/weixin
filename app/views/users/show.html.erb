@@ -1,21 +1,54 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @user.name %>
-</p>
+<div class="ui link cards">
 
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
+  <div class="card" data-url="#">
+    <div class="image">
+      <img src="https://s3-ap-southeast-1.amazonaws.com/wxstudent/videotest2.jpg">
+    </div>
+    <div class="content">
+      <div class="header">经营学</div>
+      <div class="meta">
+        <a>史老师</a>
+      </div>
+      <div class="description">课程介绍</div>
+    </div>
+    <div class="extra content">
+      <span class="right floated">2016 </span>
+      <span><i class="user icon"></i> ...... </span>
+    </div>
+  </div>
 
-<div style="position: relative;padding-bottom: 56.25%;">
-  <iframe style="position: absolute;top: 0;left: 0;width: 50%;height: 50%;"
-          src="https://media.s3bubble.com/embed/progressive/id/GcWdmTTXGw"
-          frameborder="0" allowfullscreen="allowfullscreen">
-  </iframe>
+  <div class="card" data-url="#">
+    <div class="image">
+      <img src="https://s3-ap-southeast-1.amazonaws.com/wxstudent/videotest2.jpg">
+    </div>
+    <div class="content">
+      <div class="header">日语</div>
+      <div class="meta">
+        <span class="date">邱老师</span>
+      </div>
+      <div class="description">课程介绍</div>
+    </div>
+    <div class="extra content">
+      <span class="right floated">2015 </span>
+      <span><i class="user icon"></i> ...... </span>
+    </div>
+  </div>
+
 </div>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', "#" %>
+<script>
+  jQuery('.card').click(function() {
+    location.href = jQuery(this).attr('data-url');
+  });
+</script>
+
+
+
+<!--<div style="position: relative;padding-bottom: 56.25%;">-->
+  <!--<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"-->
+          <!--src="https://media.s3bubble.com/embed/progressive/id/GcWdmTTXGw"-->
+          <!--frameborder="0" allowfullscreen="allowfullscreen">-->
+  <!--</iframe>-->
+<!--</div>-->

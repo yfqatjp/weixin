@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/doabit/semantic-ui-sass.git
+  revision: 94b14c605c16fe433a0fe9e1fa5907f9a9604f4e
+  specs:
+    semantic-ui-sass (2.2.3.0)
+      sass (>= 3.2)
+
+GIT
   remote: git://github.com/mshibuya/remotipart.git
   revision: 88d9a7d55bde66acb6cf3a3c6036a5a1fc991d5e
   specs:
@@ -213,6 +220,7 @@ DEPENDENCIES
   rails_admin (>= 1.0.0.rc)
   remotipart!
   sass-rails (~> 5.0)
+  semantic-ui-sass!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
