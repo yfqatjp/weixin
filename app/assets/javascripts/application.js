@@ -16,4 +16,5 @@
 // Loads all Semantic javascripts
 //= require semantic-ui
 //= require turbolinks
+//= require angular.min
 //= require_tree .

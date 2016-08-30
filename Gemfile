@@ -38,6 +38,10 @@ gem 'unicorn'
 
 gem 'bcrypt',               '3.1.7'
 
+gem 'gon'
+
+gem 'rufus-scheduler'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

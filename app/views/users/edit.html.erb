@@ -1,6 +1,19 @@
-<h1>Editing User</h1>
+<% provide(:title, "帐号") %>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+        <%= render 'shared/error_messages' %>
+        <%= f.label :姓名 %>
+        <%= f.text_field :name, class: 'form-control' %>
+        <%= f.label :邮箱 %>
+        <%= f.text_field :email, class: 'form-control' %>
+        <%= f.label :新密码 %>
+        <%= f.password_field :password, class: 'form-control' %>
+        <%= f.label :确认新密码 %>
+        <%= f.password_field :password_confirmation, class: 'form-control' %>
+        <%= f.submit "更新", class: "ui green basic button" %> <% end %>
+        </br>
+        <%= link_to "取消", current_user, class: "ui grey basic button", style:"width: 100%;" %>
+  </div>
+</div>
 
-<%= render 'form', user: @user %>
-
-<%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path %>

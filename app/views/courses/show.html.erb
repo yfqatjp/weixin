@@ -1,6 +1,36 @@
+<div class="ui label" id="timelabel" style="margin: 1em 0.2em;font-size: 1em;">
+  <i class="clock icon"></i>
+  <span class="count"></span>
+</div>
+
 <div style="position: relative;padding-bottom: 56.25%;">
   <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
           src=<%=	@current_course.videourl %>
           frameborder="0" allowfullscreen="allowfullscreen">
   </iframe>
 </div>
+
+<script>
+
+//    function countup(){
+//      var totalSec = ;
+//      var hours = parseInt( totalSec / 3600 ) % 24;
+//      var minutes = parseInt( totalSec / 60 ) % 60;
+//      var seconds = totalSec % 60;
+//      var result = (hours < 10 ? "0" + hours : hours) + "小时" +
+//          (minutes < 10 ? "0" + minutes : minutes) + "分" +
+//          (seconds  < 10 ? "0" + seconds : seconds+ "秒");
+//      $('.count').html(result);
+//    };
+//
+//    countup();
+//
+//    var id = setInterval(function(){
+//        countup();
+//      if(totalSec <= 0){
+//        clearInterval(id);
+//      }}, 60000);
+
+
+
+</script>
