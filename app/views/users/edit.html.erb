@@ -1,6 +1,16 @@
 <% provide(:title, "帐号") %>
 <div class="row">
-  <div class="col-md-6 col-md-offset-3">
+  <div class="col-md-6 col-md-offset-2">
+    <div class="progress">
+      <% t = @user.buytime*3600 - @user.playtime %>
+      <% tpercent = t.to_f / (@user.buytime*3600) * 100
+         mm, ss = t.divmod(60)
+         hh, mm = mm.divmod(60) %>
+      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="<%= tpercent %>"
+           aria-valuemin="0" aria-valuemax="100" style="width: <%= tpercent %>%;">
+        剩余<%=	"#{hh}小时#{mm}分" %>
+      </div>
+    </div>
     <%= form_for(@user) do |f| %>
         <%= render 'shared/error_messages' %>
         <%= f.label :姓名 %>
@@ -15,5 +25,7 @@
         </br>
         <%= link_to "取消", current_user, class: "ui grey basic button", style:"width: 100%;" %>
   </div>
+
 </div>
+
 
