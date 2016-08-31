@@ -7,10 +7,14 @@
          mm, ss = t.divmod(60)
          hh, mm = mm.divmod(60) %>
       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="<%= tpercent %>"
-           aria-valuemin="0" aria-valuemax="100" style="width: <%= tpercent %>%;">
-
+           aria-valuemin="0" aria-valuemax="100" style="width: <%= tpercent %>%;min-width: 4em;">
+        <% if hh > 0 && tpercent > 10 %>
+            <% tmstring = "剩#{hh}小时#{mm}分" %>
+        <% else %>
+            <% tmstring = "剩#{mm}分" %>
+        <% end %>
+        <%=	tmstring %>
       </div>
-      剩余<%=	"#{hh}小时#{mm}分"%>
     </div>
     <%= form_for(@user) do |f| %>
         <%= render 'shared/error_messages' %>
