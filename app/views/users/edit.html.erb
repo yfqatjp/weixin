@@ -8,8 +8,9 @@
          hh, mm = mm.divmod(60) %>
       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="<%= tpercent %>"
            aria-valuemin="0" aria-valuemax="100" style="width: <%= tpercent %>%;">
-        剩余<%=	"#{hh}小时#{mm}分" %>
+
       </div>
+      剩余<%=	"#{hh}小时#{mm}分"%>
     </div>
     <%= form_for(@user) do |f| %>
         <%= render 'shared/error_messages' %>

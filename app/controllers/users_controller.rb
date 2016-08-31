@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, only: [:show, :edit, :update, :destroy]
+  before_action :timeleft, only: [:show]
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users/1
@@ -65,6 +66,13 @@ class UsersController < ApplicationController
       unless logged_in?
         flash[:danger] = "请登录."
         redirect_to login_url
+      end
+    end
+
+    def timeleft
+      @user = User.find(params[:id])
+      if @user.playtime >= @user.buytime*3600
+        redirect_to edit_user_url
       end
     end
 

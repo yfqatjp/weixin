@@ -2,11 +2,15 @@ class CoursesController < ApplicationController
   def show
     @user = User.find_by(id: session[:user_id])
     @current_course = @user.courses.find_by(id: params[:course_now])
-    tttime = @user.buytime*3600 - @user.playtime;
-    s = Rufus::Scheduler.singleton
-    s.every '1m' do
-      @user.playtime += 60
-      @user.save
+    scheduler = Rufus::Scheduler.new
+    job = scheduler.schedule_every '1m' do
+      if @user.playtime < @user.buytime*3600 && !@current_course.nil?
+        @user.playtime += 60
+        @user.save
+      else
+        job.kill
+      end
+
     end
   end
 end
