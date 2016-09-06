@@ -12,6 +12,9 @@ class StaticPagesController < ApplicationController
   end
 
   def logged_in_user
+
+
+
     unless logged_in?
       flash[:danger] = "请登录."
       redirect_to login_url

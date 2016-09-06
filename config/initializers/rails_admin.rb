@@ -41,4 +41,11 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  config.model 'User' do
+    edit do
+      exclude_fields :admin
+    end
+  end
+
 end
