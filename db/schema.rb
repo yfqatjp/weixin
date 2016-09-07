@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160829170809) do
+ActiveRecord::Schema.define(version: 20160906085130) do
 
   create_table "courses", force: :cascade do |t|
     t.text     "content"
@@ -49,6 +49,9 @@ ActiveRecord::Schema.define(version: 20160829170809) do
     t.boolean  "admin"
     t.integer  "playtime"
     t.integer  "buytime"
+    t.date     "expiredate"
+    t.         "login"
+    t.boolean  "logout"
   end
 
 end

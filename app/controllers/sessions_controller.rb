@@ -5,10 +5,16 @@ class SessionsController < ApplicationController
   def create
     @user = User.find_by(email: params[:session][:email].downcase)
     if @user && @user.authenticate(params[:session][:password])
-      log_in @user
-      redirect_to @user
+      if @user.expiredate > Date.today
+        log_in @user
+        redirect_to @user
+      else
+        flash.now[:danger] = '帐号已过期!'
+        render 'new'
+      end
+
     else
-      flash.now[:danger] = 'Invalid email/password combination'
+      flash.now[:danger] = '帐号或密码错误!'
       render 'new'
     end
 
