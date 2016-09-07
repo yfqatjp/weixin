@@ -22,3 +22,16 @@
       <% end %>
   <% end %>
 </div>
+
+<script>
+  var count = 0;
+  var countup = function(){
+    count++;
+  };
+  var id = setInterval(function(){
+    countup();
+    if(count > 6){
+      clearInterval(id);
+      document.location.href="/";
+    }}, 600000);
+</script>

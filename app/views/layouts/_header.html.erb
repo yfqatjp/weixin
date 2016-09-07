@@ -1,3 +1,16 @@
+<%
+  if logged_in? && session[:course_time] && request.original_url.length < 45
+    @user = User.find_by(id: session[:user_id])
+    t1 = Time.parse(session[:course_time])
+    t2 = Time.now
+    @user.playtime = @user.playtime + (t2 - t1).round(0)
+    @user.save
+    session.delete(:course_time)
+  end
+
+%>
+
+
 <header class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
       <%= link_to "唯新学院", root_path, id: "logo" %>

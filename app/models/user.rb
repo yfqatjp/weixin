@@ -5,7 +5,7 @@ class User < ApplicationRecord
   after_initialize :init
 
   def init
-    self.buytime  ||= 35.0
+    self.buytime  ||= 20.0
     self.playtime  ||= 0.0
     self.expiredate ||= Date.today + 365.days
   end

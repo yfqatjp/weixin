@@ -42,10 +42,10 @@ RailsAdmin.config do |config|
     # history_show
   end
 
-  config.model 'User' do
-    edit do
-      exclude_fields :admin
-    end
-  end
+  # config.model 'User' do
+  #   edit do
+  #     exclude_fields :admin
+  #   end
+  # end
 
 end
