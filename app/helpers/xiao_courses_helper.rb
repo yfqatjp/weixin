@@ -1,0 +1,2 @@
+module XiaoCoursesHelper
+end

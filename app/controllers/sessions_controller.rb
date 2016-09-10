@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     if @user && @user.authenticate(params[:session][:password])
       if @user.expiredate > Date.today
         log_in @user
-        redirect_to @user
+        redirect_to dacourseshow_url
       else
         flash.now[:danger] = '帐号已过期!'
         render 'new'

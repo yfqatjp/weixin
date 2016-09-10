@@ -10,4 +10,8 @@ Rails.application.routes.draw do
   delete 'logout' => 'sessions#destroy'
   get 'signup' => 'users#new'
   get 'courseshow' => 'courses#show'
+  get 'coursewatch' => 'courses#watch'
+  get 'dacourseshow' => 'da_courses#show'
+  get 'xiaocourseshow' => 'xiao_courses#show'
+
 end

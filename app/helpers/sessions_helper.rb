@@ -5,9 +5,9 @@ module SessionsHelper
     # 每周日更新系统
     if session[:user_id] == 1
       scheduler = Rufus::Scheduler.new
-      job = scheduler.schedule_every '1d' do
+      job = scheduler.schedule_every '7d' do
         User.update_all(playtime: 0)
-        User.update_all(buytime: 35)
+        User.update_all(buytime: 20)
       end
     end
 

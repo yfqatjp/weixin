@@ -1,5 +1,5 @@
 <%
-  if logged_in? && session[:course_time] && request.original_url.length < 45
+  if logged_in? && session[:course_time] && request.original_url.include?('coursewatch')
     @user = User.find_by(id: session[:user_id])
     t1 = Time.parse(session[:course_time])
     t2 = Time.now
@@ -22,7 +22,7 @@
                 <%= @user.name %> <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><%= link_to "课程", current_user %></li>
+                <li><%= link_to "课程", dacourseshow_url %></li>
                 <li><%= link_to "帐号", edit_user_path(current_user) %></li>
                 <% if current_user.admin == true  %>
                     <li><%= link_to "管理", rails_admin_path %></li>

@@ -1,0 +1,21 @@
+<div class="ui link cards">
+    <% @user.da_courses.each do |dacourse| %>
+        <div class="card">
+          <a class="image" href="xiaocourseshow?dacourseid=<%= dacourse.id %>">
+            <img src=<%= dacourse.imageurl %>>
+          </a>
+          <div class="content">
+            <div class="header"><%= dacourse.content %></div>
+            <div class="meta">
+
+            </div>
+            <div class="description">
+
+            </div>
+          </div>
+          <div class="extra content">
+
+          </div>
+        </div>
+    <% end %>
+</div>

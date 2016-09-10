@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   has_many :user_courses
   has_many :courses, :through => :user_courses
+  has_many :da_courses, :through => :user_courses
+  has_many :xiao_courses, :through => :user_courses
 
   after_initialize :init
 

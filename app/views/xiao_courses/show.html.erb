@@ -1,0 +1,24 @@
+<div class="ui link cards">
+  <% @user.xiao_courses.each do |xiaocourse| %>
+      <%	if xiaocourse.da_course.id == @current_dacourse.id%>
+          <div class="card">
+            <a class="image" href="courseshow?xiaocourseid=<%= xiaocourse.id %>">
+              <img src=<%= xiaocourse.imageurl %>>
+            </a>
+            <div class="content">
+              <div class="header"><%= xiaocourse.content %></div>
+              <div class="meta">
+
+              </div>
+              <div class="description">
+
+              </div>
+            </div>
+            <div class="extra content">
+
+            </div>
+          </div>
+      <% end %>
+
+  <% end %>
+</div>
