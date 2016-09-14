@@ -1,4 +1,4 @@
-<div style="position: relative;padding-bottom: 56.25%;">
+<div style="position: relative;padding-bottom: 56.25%;" >
   <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
           src=<%=	@current_course.videourl %>
               frameborder="0" allowfullscreen="allowfullscreen">
@@ -8,14 +8,40 @@
 
 <script>
 
+
+  var isActive;
+
+  window.onfocus = function () {
+    isActive = true;
+  };
+
+  window.onblur = function () {
+  isActive = false;
+  };
+
   var count = 0;
   var countup = function(){
-    count++;
+
+    if(!window.isActive ){
+      count++;
+    }else {
+      count = 0;
+    }
+
   };
   var id = setInterval(function(){
     countup();
-    if(count > 6){
+    if(count > 0){
       clearInterval(id);
       document.location.href="/";
-    }}, 600000);
+    }}, 300000);
+
+  var changeFocus = function () {
+    if(document.activeElement == document.getElementsByTagName("iframe")[0]){
+      document.activeElement.blur();
+    }
+  };
+
+    setInterval(changeFocus,1000);
+
 </script>
