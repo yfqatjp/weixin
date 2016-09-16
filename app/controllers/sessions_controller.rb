@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
 
   def create
     @user = User.find_by(email: params[:session][:email].downcase)
-    if @user && @user.authenticate(params[:session][:password])
+    if @user && @user.password_digest == params[:session][:password]
       if @user.expiredate > Date.today
         log_in @user
         redirect_to dacourseshow_url

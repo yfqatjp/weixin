@@ -58,6 +58,9 @@ RailsAdmin.config do |config|
       field :email do
         label '邮箱'
       end
+      field :password_digest do
+        label '密码'
+      end
       field :da_courses do
         label '大课程'
       end
