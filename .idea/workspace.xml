@@ -7,10 +7,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mh/MhCMPpgLdJvoWVAalb7BctuQU6tYJtp8cfwMr7quWAs.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mh/MhCMPpgLdJvoWVAalb7BctuQU6tYJtp8cfwMr7quWAs.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/SN/snEhMB2vurEEi-JysI2CCPCFkqhtI7lsWPxhQjp7TR4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/SN/snEhMB2vurEEi-JysI2CCPCFkqhtI7lsWPxhQjp7TR4.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/watch.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/watch.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/rails_admin.rb" afterPath="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="weixin.iws" />
@@ -85,8 +82,8 @@
       <file leaf-file-name="watch.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/courses/watch.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="106" />
+            <state relative-caret-position="540">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#video#0;n#div#0;n#!!top" expanded="true" />
@@ -847,12 +844,12 @@
       <workItem from="1472361801833" duration="31175000" />
       <workItem from="1472481194263" duration="54453000" />
       <workItem from="1472947293433" duration="2599000" />
-      <workItem from="1473142970326" duration="34084000" />
+      <workItem from="1473142970326" duration="34925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122311000" />
+    <option name="totallyTimeSpent" value="123152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1287,8 +1284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/courses/watch.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="106" />
+        <state relative-caret-position="540">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#video#0;n#div#0;n#!!top" expanded="true" />
