@@ -1,8 +1,8 @@
 <div style="position: relative;padding-bottom: 56.25%;" >
-  <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
-          src=<%=	@current_course.videourl %>
-              frameborder="0" allowfullscreen="allowfullscreen">
-  </iframe>
+  <video style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" controls>
+    <source src=<%=	@current_course.videourl %> type="video/mp4">
+  </video>
+
 </div>
 
 
@@ -32,12 +32,12 @@
   var id = setInterval(function(){
     countup();
     if(count > 0){
-      clearInterval(id);
+      clearIntervalhttps://www.evernote.com/shard/s549/nl/2147483647/63bea51b-ac06-4c98-a516-dc7ad711a0c4/(id);
       document.location.href="/";
     }}, 300000);
 
   var changeFocus = function () {
-    if(document.activeElement == document.getElementsByTagName("iframe")[0]){
+    if(document.activeElement == document.getElementsByTagName("video")[0]){
       document.activeElement.blur();
     }
   };
