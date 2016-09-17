@@ -8,7 +8,7 @@ class CoursesController < ApplicationController
 
   def watch
     @user = User.find_by(id: session[:user_id])
-    @current_course = @user.courses.find_by(id: params[:course_now])
+    @current_course = Course.find_by(id: params[:course_now])
 
     session[:course_time] = Time.now
     @user.save
